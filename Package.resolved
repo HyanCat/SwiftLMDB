@@ -1,12 +1,12 @@
 {
   "pins" : [
     {
-      "identity" : "clmdb",
+      "identity" : "swift-lmdb",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/agisboye/CLMDB.git",
+      "location" : "https://github.com/swiftlang/swift-lmdb.git",
       "state" : {
-        "revision" : "430cddd13460c6d134cc0dc24e52482c76ca3352",
-        "version" : "0.9.31"
+        "branch" : "swift-5.10.1-RELEASE",
+        "revision" : "584941b1236b15bad74d8163785d389c028b1ad8"
       }
     }
   ],

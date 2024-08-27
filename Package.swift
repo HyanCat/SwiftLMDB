@@ -9,11 +9,11 @@ let package = Package(
     ],
     
     dependencies: [
-        .package(url: "https://github.com/agisboye/CLMDB.git", exact: "0.9.31")
+        .package(url: "https://github.com/swiftlang/swift-lmdb.git", branch: "swift-5.10.1-RELEASE")
     ],
 
     targets: [
-        .target(name: "SwiftLMDB", dependencies: [.product(name: "LMDB", package: "CLMDB")], path: "Sources"),
+        .target(name: "SwiftLMDB", dependencies: [.product(name: "CLMDB", package: "swift-lmdb")], path: "Sources"),
         .testTarget(name: "SwiftLMDBTests", dependencies: ["SwiftLMDB"]),
     ]
 )
