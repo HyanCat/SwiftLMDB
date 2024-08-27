@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import LMDB
+import CLMDB
 
 struct LMDBVersion {
     var major: Int

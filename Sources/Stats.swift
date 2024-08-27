@@ -5,7 +5,7 @@
 //  Created by August Heegaard on 17/08/2021.
 //
 
-import LMDB
+import CLMDB
 
 /// Provides database statistics
 public struct Stats {
